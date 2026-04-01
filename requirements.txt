@@ -1,0 +1,13 @@
+confluent-kafka==2.3.0
+redis==5.0.1
+transformers==4.38.2
+torch==2.11.0
+streamlit==1.32.2
+plotly==5.19.0
+mlflow==2.11.1
+scikit-learn==1.4.1.post1
+pandas==2.2.1
+praw==7.7.1
+python-dotenv==1.0.1
+streamlit-autorefresh==1.0.1
+numpy==1.26.4

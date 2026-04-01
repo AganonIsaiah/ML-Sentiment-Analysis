@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.cache/
+mlruns/
+data/sentiment140.csv
+*.db
