@@ -63,7 +63,7 @@ sleep 1
 
 # ── dashboard ─────────────────────────────────────────────────────────────────
 info "Starting Streamlit dashboard → http://localhost:8501"
-(streamlit run dashboard/app.py 2>&1 | sed 's/^/[dashboard] /') &
+(streamlit run dashboard/app.py --server.headless true 2>&1 | sed 's/^/[dashboard] /') &
 PIDS+=($!)
 
 info "Pipeline running. Press Ctrl+C to stop everything."

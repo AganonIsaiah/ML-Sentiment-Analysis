@@ -18,7 +18,7 @@ MODEL_NAME = "cardiffnlp/twitter-roberta-base-sentiment"
 BATCH_SIZE = 16
 
 # MLflow
-MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5000")
+MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5001")
 MLFLOW_EXPERIMENT_NAME = "sentiment-pipeline"
 
 # Logging interval (log metrics every N messages)
